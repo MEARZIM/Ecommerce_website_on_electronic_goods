@@ -1,0 +1,12 @@
+@import "../../css-config/mixins.scss";
+
+.main-content{
+    min-width: calc(100% - 20px);
+    // text-align: center;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    @include md{
+        min-width: 1200px;
+    }
+}

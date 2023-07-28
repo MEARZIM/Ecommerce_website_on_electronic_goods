@@ -1,0 +1,87 @@
+.cart-products {
+    flex-grow: 1;
+    overflow: scroll;
+    .search-result-item {
+        padding: 20px 15px;
+        display: flex;
+        gap: 10px;
+        .image-container {
+            background-color: rgba(0, 0, 0, 0.05);
+            width: 60px;
+            height: 60px;
+            flex-shrink: 0;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .prod-details {
+            overflow: hidden;
+            position: relative;
+            .name {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                font-size: 16px;
+                line-height: 1;
+                margin-bottom: 10px;
+                font-weight: 600;
+                display: block;
+                padding-right: 25px;
+            }
+            .text {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-size: 12px;
+                font-weight: 600;
+                .highlight {
+                    color: #8e2de2;
+                }
+            }
+            svg {
+                position: absolute;
+                top: 0;
+                right: 0;
+                cursor: pointer;
+            }
+            
+            }
+
+      
+
+        /* CSS */
+        .buttons {
+            margin: 0;
+            padding: 0;
+            height: 9vh;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+        
+        .cart-button {
+            position: relative;
+            left: 20px;
+            background-color: blue;
+            color: #fff;
+            border: none;
+            height: 35px;
+            width: 125px;
+            padding: 10px;
+            border-radius: 10px;
+            line-height: 0px;
+            overflow: hidden;
+            cursor: pointer
+        }
+        
+        .cart-button:focus {
+            outline: none !important
+        }
+    }
+       
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    
+}

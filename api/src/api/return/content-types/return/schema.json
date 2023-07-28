@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "returns",
+  "info": {
+    "singularName": "return",
+    "pluralName": "returns",
+    "displayName": "return",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ReturnData": {
+      "type": "json"
+    }
+  }
+}
