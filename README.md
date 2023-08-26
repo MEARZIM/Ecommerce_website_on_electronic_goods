@@ -1,4 +1,3 @@
-![Screenshot 2023-08-26 183209](https://github.com/MEARZIM/Ecommerce_website_on_electronic_goods/assets/89741434/ef867af0-ab2c-4539-b1d8-63320b3442fe)
 # Ecommerce_website
 
 A full-fledged e-com website based on react-js and stripe including login register return policy and other features that a typical e-com website have.
