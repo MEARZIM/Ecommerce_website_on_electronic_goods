@@ -26,7 +26,7 @@ A full-fledged e-com website based on react-js and stripe including login regist
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+[Documentation](https://drive.google.com/file/d/1PC2sY5XjExsaHehJWf-7BommwGEg0OXW/view?usp=sharing)
 
 
 ## Installation
